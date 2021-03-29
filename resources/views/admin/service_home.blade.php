@@ -23,6 +23,7 @@
                                     <th width="200">Id</th>
                                     <th>Name</th>
                                     <th>User</th>
+                                    <th>Email</th>
                                 </tr>
                             </thead>
                         </table>
@@ -46,6 +47,7 @@
                 {data: 'id', name: 'id'},
                 {data: 'name', name: 'name'},
                 {data: 'user.name', name: 'user.name'},
+                {data: 'user.email', name: 'user.email'},
             ]
         }); 
     }); 
